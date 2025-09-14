@@ -1,5 +1,5 @@
 file_format: "1"
-id: charybdis
+id: charybdis_nano
 name: Charybdis
 type: shield
 url: https://github.com/Bastardkb/Charybdis/
@@ -8,5 +8,5 @@ features:
   - keys
   - pointer
 siblings:
-  - charybdis_left
-  - charybdis_right
+  - charybdis_nano_left
+  - charybdis_nano_right
