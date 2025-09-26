@@ -3,7 +3,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,matrix_transform = &default_transform;
+        zmk,matrix_transform = &five_column_transform;
     }; 
 
     vbatt: vbatt {
@@ -40,11 +40,5 @@
         compatible = "zmk,kscan-gpio-matrix";
 
         diode-direction = "row2col";
-		row-gpios
-			= <&pro_micro 18 GPIO_ACTIVE_HIGH>
-			, <&pro_micro 5 GPIO_ACTIVE_HIGH>
-			, <&pro_micro 4 GPIO_ACTIVE_HIGH>
-			, <&pro_micro 9 GPIO_ACTIVE_HIGH>
-            ;
     };
 };
